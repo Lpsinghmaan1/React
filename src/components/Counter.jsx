@@ -5,9 +5,7 @@ import React, { Component } from 'react';
  {
 
 //special property that has all that data that this component needs - no needed for a controller component
-//state = {
-//value: this.props.value
-//};
+//state = {value: this.props.value};
 // Increment button function and the DOM in the sync with the virtual DOM  
 // output
 
@@ -38,8 +36,8 @@ import React, { Component } from 'react';
 
     formatcount()
     {
-        const {value: count} = this.props.counter.value;
-        return count === 0 ? "Zero" : count;
+        var {value} = this.props.counter;
+        return value === 0 ? "Zero" : value;
     }
 }
  
