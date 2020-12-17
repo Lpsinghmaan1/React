@@ -7,6 +7,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Counters from './components/Counters';
 
 
-ReactDOM.render(<Counters />,document.getElementById('root'));
+ReactDOM.render(<App />,document.getElementById('root'));
 
 reportWebVitals();
