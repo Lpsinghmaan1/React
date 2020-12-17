@@ -13,8 +13,11 @@ class  Counters extends Component {
 
      handelIncrement = counter => {
          const counters = [...this.state.counters];
-         counters.id = this.state.counters.id
-         counters.map(index => index.value++)
+         const index = counters.indexOf(counter);
+         counters[index] = {...counter};
+         counters[index].value++;
+         this.setState({counters});
+
 
      ;}
 
