@@ -1,14 +1,8 @@
-
+import "bootstrap/dist/css/bootstrap.css";
 import React, { Component } from 'react';
 
  class  Counter extends Component 
  {
-
-//special property that has all that data that this component needs - no needed for a controller component
-//state = {value: this.props.value};
-// Increment button function and the DOM in the sync with the virtual DOM  
-// output
-
     render() 
     { 
         return (

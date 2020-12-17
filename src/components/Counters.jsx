@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Counter from "./Counter"
+import "bootstrap/dist/css/bootstrap.css";
 
 class  Counters extends Component {
     state = { 
